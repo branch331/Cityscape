@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
+	<Property Name="varPersistentID:{EE5A8EFC-B0B9-4404-B5CE-4FCF01BA80C1}" Type="Ref">/My Computer/Shared Variables.lvlib/Distance</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -10,7 +11,77 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Object_Track_Webcam_PC.vi" Type="VI" URL="../Object_Track_Webcam_PC.vi"/>
+		<Item Name="Shared Variables.lvlib" Type="Library" URL="../Shared Variables.lvlib"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="vi.lib" Type="Folder">
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
+				<Item Name="IMAQ Add Tracking Object" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Add Tracking Object"/>
+				<Item Name="IMAQ ConstructROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Display.llb/IMAQ ConstructROI"/>
+				<Item Name="IMAQ Convert ROI to Point" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Conversion.llb/IMAQ Convert ROI to Point"/>
+				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
+				<Item Name="IMAQ Create Object Tracking Session" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Create Object Tracking Session"/>
+				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="IMAQ Dispose Object Tracking Session" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Dispose Object Tracking Session"/>
+				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQ Mean Shift Options" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Mean Shift Options"/>
+				<Item Name="IMAQ Object Tracking Options" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Object Tracking Options"/>
+				<Item Name="IMAQ Object Tracking Session.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Object Tracking Session.ctl"/>
+				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
+				<Item Name="IMAQ Overlay Multiple Lines 2" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Multiple Lines 2"/>
+				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
+				<Item Name="IMAQ Point" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Point"/>
+				<Item Name="IMAQ Select Point" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Construct.llb/IMAQ Select Point"/>
+				<Item Name="IMAQ Shape Adapted Options" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Shape Adapted Options"/>
+				<Item Name="IMAQ Track Objects" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Track Objects"/>
+				<Item Name="IMAQ WindEraseROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Display.llb/IMAQ WindEraseROI"/>
+				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="Calculate_Distance.vi" Type="VI" URL="../Calculate_Distance.vi"/>
+			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="HerNameIsRIO" Type="RT myRIO">
@@ -23,6 +94,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
 		<Property Name="host.TargetOSID" Type="UInt">8</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
@@ -91,8 +163,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Analog Input.vi" Type="VI" URL="../Analog Input.vi"/>
-		<Item Name="Analog_Output.vi" Type="VI" URL="../Analog_Output.vi"/>
+		<Item Name="pidtest.vi" Type="VI" URL="../pidtest.vi"/>
 		<Item Name="Chassis" Type="myRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -103,7 +174,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="FPGA Target" Type="FPGA Target">
 				<Property Name="AutoRun" Type="Bool">false</Property>
-				<Property Name="configString.guid" Type="Str">{0D30F1CF-0EA3-49BB-A624-136FF49FE0B0}resource=/Scan Clock;0;ReadMethodType=bool{0E0429F6-8CC6-4BF7-BD6B-F8D1788DA70A}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{0EB2D3C6-9992-4FCE-A465-D592B23B64C4}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO11;0;ReadMethodType=bool;WriteMethodType=bool{10AE0B8D-04ED-4949-8FD6-43F3A4C0B238}resource=/Audio/AudioIn\/Right;0;ReadMethodType=I16{14927E5E-DDFD-4EEF-9B98-622C34EC5911}resource=/ConnectorA/AO1;0;WriteMethodType=U16{1C649CD1-FBEE-4148-A26B-EF2A0677DCAF}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{1E24B10B-A074-4E37-B372-8C53272AE9FA}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{20A38365-85C3-46A7-9153-23200CCFC592}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO14;0;ReadMethodType=bool;WriteMethodType=bool{219367CF-FE84-461A-9AA0-172ED325CED8}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{266D89F5-C928-4265-B4CB-64407F871572}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO10;0;ReadMethodType=bool;WriteMethodType=bool{2EA10CFB-BFDC-4D9B-B6F1-A287B305E0DA}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/LED1;0;ReadMethodType=bool;WriteMethodType=bool{30A1CC1E-D7D8-44CE-BDAF-198F129D2229}resource=/AccelerationZ;0;ReadMethodType=I16{3148C25D-AA60-40A4-967F-6C552BBFB02F}resource=/Audio/AudioOut\/Left;0;WriteMethodType=I16{3379BB5D-D584-4CBC-BE40-69F1E608671A}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{35CD1147-B130-42E0-8823-BD690DC9A90C}resource=/ConnectorB/AI2;0;ReadMethodType=U16{3922E19B-C34B-4F80-BD37-C0800D4BF7D5}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{3AAECA2A-9F4B-42E5-9705-6D51782CB373}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO13;0;ReadMethodType=bool;WriteMethodType=bool{3AEA08E3-F31C-4CD0-91EF-9B3F50037CDF}resource=/ConnectorC/AI1;0;ReadMethodType=I16{412A8D61-14DF-4CD4-81C4-FF516CFBDF42}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO11;0;ReadMethodType=bool;WriteMethodType=bool{431277D4-C06D-4898-A4C0-A231A2B34417}resource=/ConnectorB/AO1;0;WriteMethodType=U16{436A8860-AB7D-4717-B3D1-E60F5817D796}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{45394F5A-2E4E-4DD2-AC1C-BA2034452C0A}resource=/ConnectorC/AO0;0;WriteMethodType=I16{47D83B4A-30ED-480E-B114-D6661827F6CE}resource=/ConnectorB/AI3;0;ReadMethodType=U16{4875349A-98CB-4B55-8901-B9F9509356E4}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO10;0;ReadMethodType=bool;WriteMethodType=bool{4B05E0A7-95C6-45B2-B342-5A53B730E670}resource=/ConnectorA/AI0;0;ReadMethodType=U16{4CD7FCBD-1D81-498B-85CA-88D3D931BF3E}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{54CE6C55-75A0-492B-B32F-EEB1D93BF6A7}resource=/Audio/AudioIn\/Left;0;ReadMethodType=I16{54F9A628-58C9-4B13-8381-5B8BEA7FBE7B}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{57EBAADF-FD4A-4B2D-B7ED-63F405FB4C77}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO15;0;ReadMethodType=bool;WriteMethodType=bool{581A0271-160B-41DC-A6CD-4D3FDF88B519}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{5D5FECFC-F8BE-4ED4-81FA-204370C7274E}resource=/ConnectorB/AI0;0;ReadMethodType=U16{639ADD89-DC95-478E-9B36-1B80D3A13D41}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/LED2;0;ReadMethodType=bool;WriteMethodType=bool{6658E748-F77E-4B18-8559-447CFD44CE8E}resource=/ConnectorC/AO1;0;WriteMethodType=I16{6993FF78-09CF-4829-9B0C-F67C60C3D8ED}NumberOfSyncRegistersForReadInProject=Auto;resource=/Button0;0;ReadMethodType=bool{69FC4CA4-CC22-4954-933A-911369F7A7C5}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{6D956E0B-0424-44DB-87C0-C9C08E176895}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{6DC28FE6-8BD7-460A-A7D6-42577717D944}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{6F7FBC02-A3DE-48C3-8BB4-7A2450B2057A}resource=/AccelerationY;0;ReadMethodType=I16{71ECCDA2-224E-49C2-B285-E732BE5D4244}resource=/ConnectorC/AI0;0;ReadMethodType=I16{72C3FEBB-B467-4EE7-B801-E6EBDEB139F2}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/LED3;0;ReadMethodType=bool;WriteMethodType=bool{7441F385-EDB8-4DB1-876F-11FEF5A12596}resource=/ConnectorA/AI2;0;ReadMethodType=U16{788EBBFA-7396-43CC-9080-FBB404D94D92}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8{7923E54A-6653-49E8-9209-EA8B49237250}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO12;0;ReadMethodType=bool;WriteMethodType=bool{7A80661C-F446-4C92-A426-077A57E3DBD6}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{7E128035-0530-494A-8F9B-BA60D414B4D7}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO9;0;ReadMethodType=bool;WriteMethodType=bool{80E5BC82-2865-49BD-BA43-C2944147719C}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO15:8;0;ReadMethodType=u8;WriteMethodType=u8{843C2068-9A52-4A7F-99B8-8D0025CBF627}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{8B7AC108-BE8A-49EA-9357-6AD1E95B3BA5}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO8;0;ReadMethodType=bool;WriteMethodType=bool{8ED24604-D9A4-41F4-A95A-8959C3B71FCA}resource=/ConnectorA/AO0;0;WriteMethodType=U16{90D3542D-704C-4830-B885-ED02B71BA36E}resource=/AccelerationX;0;ReadMethodType=I16{912CA4B7-95FC-4FCC-900A-B6D14CAD0016}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{9749D0AF-C998-4474-A64C-85AC3CC09DEF}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO12;0;ReadMethodType=bool;WriteMethodType=bool{9AD6B7F7-C17A-489D-8DA7-7AC18BE4D321}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{A581C0FD-2B10-48CE-A637-B168B132C2D5}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO9;0;ReadMethodType=bool;WriteMethodType=bool{A699A7BD-498D-4ACC-95F0-02340B683600}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO14;0;ReadMethodType=bool;WriteMethodType=bool{B208182E-6CE7-4666-B6E4-186A875718AE}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8{B8FB50AA-D00A-47B0-843B-386E1357412A}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{BBA4A812-5261-40C0-A67C-5218B8CCB81B}resource=/ConnectorA/AI3;0;ReadMethodType=U16{BD961BD4-636B-4940-8534-EDD0FDCE056C}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO15;0;ReadMethodType=bool;WriteMethodType=bool{BF4EE6D4-04E6-4277-B55C-B84090B8E0CE}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/LED0;0;ReadMethodType=bool;WriteMethodType=bool{CA6A66B6-DA75-48DB-922E-B831C585C273}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{CD6A05A5-D0F4-41A2-B50D-1E15E0CCB244}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8{CDF908CB-E409-43C2-AA23-F51785080AF5}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{D0F7916F-4DAC-475A-8B13-6105F49BBD38}resource=/Audio/AudioOut\/Right;0;WriteMethodType=I16{D4134376-5066-4C2B-80D6-AF87276BDFA4}resource=/ConnectorB/AI1;0;ReadMethodType=U16{D49BFF6F-F4D5-406F-8E65-E69077F2F88C}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{DAB31A4E-2F1F-4DF9-83B9-7EB6220694D6}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{DB54AB49-FC3B-4E37-B00C-1056776399FF}resource=/ConnectorB/AO0;0;WriteMethodType=U16{DFB7FC0C-BF4B-440A-8107-42F702CCB3DE}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO15:8;0;ReadMethodType=u8;WriteMethodType=u8{E01FD535-1B0C-43D9-9CF2-3080FB2AA041}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO13;0;ReadMethodType=bool;WriteMethodType=bool{E1F20B5B-7971-4BCE-996D-135DE1E18965}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{E677ECF7-A651-45BD-9E9E-D7A06FA32759}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{E9C0B175-BCBD-4A6E-A47B-24DDB541598A}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{EC7B6B8C-7522-433C-BB3E-02CBEC6C864B}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{FBA7EC1B-900C-4AA6-9431-C536B06B0B3C}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO8;0;ReadMethodType=bool;WriteMethodType=bool{FEA5F93D-DC59-45D7-98B4-AC98586737F0}resource=/ConnectorA/AI1;0;ReadMethodType=U16myRIO-1900/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSMYRIO_1900FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
+				<Property Name="configString.guid" Type="Str">{01AE9976-FDCF-49B8-A4BF-B1139E031AEA}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{0426A809-641B-4E76-9F90-E7A423BD63FC}resource=/ConnectorB/AI2;0;ReadMethodType=U16{06BE93AE-F159-486E-969E-E1C13105360C}resource=/Audio/AudioOut\/Right;0;WriteMethodType=I16{0D04836E-2636-4C63-985F-7B6F5B4FE463}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{1BFF1F7E-AA4C-4625-9549-A3D5E3E60CE3}resource=/ConnectorB/AI0;0;ReadMethodType=U16{1CD2AB99-6FC4-487D-B4EB-695884391732}resource=/Audio/AudioIn\/Right;0;ReadMethodType=I16{20B9F755-DCAB-42BC-8A1F-61FB6753946C}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO13;0;ReadMethodType=bool;WriteMethodType=bool{20F00B03-FDB0-44F4-A903-7F857BD847C6}resource=/AccelerationY;0;ReadMethodType=I16{22DDFAAE-BA00-4E4C-988D-7F73FA9FC6C9}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO14;0;ReadMethodType=bool;WriteMethodType=bool{22E918FE-8C14-4259-BE87-DC3188D0BDB9}resource=/ConnectorC/AO0;0;WriteMethodType=I16{238AB61B-CFAF-4DDE-BAFD-C0D48A63C6F8}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO10;0;ReadMethodType=bool;WriteMethodType=bool{28EC580D-286F-431F-B025-A702C5E02C38}resource=/ConnectorA/AO0;0;WriteMethodType=U16{2A4C3DDE-45C7-4B53-A9BB-93050659E1EB}resource=/AccelerationX;0;ReadMethodType=I16{2AD71E13-7F09-470E-A507-1D35023F6FB0}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{3CB34DDB-8285-4865-A5AD-D7893B79E307}resource=/Scan Clock;0;ReadMethodType=bool{40AAD150-BC3D-4B3C-B917-6907F0CC0A9E}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO14;0;ReadMethodType=bool;WriteMethodType=bool{41BFC47A-5966-4E74-A0BD-48C543494E49}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{49A0DA1F-4F9A-4277-93A5-63C090A8C3A9}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO15;0;ReadMethodType=bool;WriteMethodType=bool{4A91C290-E6F1-44DF-9F0E-010D91BC4002}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO4;0;ReadMethodType=bool;WriteMethodType=bool{4AACDBCA-7D39-4808-A4C9-6C16DA95C02E}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{4B2A7A9C-B033-4912-809E-DD9E293BD42F}resource=/ConnectorA/AI0;0;ReadMethodType=U16{4D353A81-FDAB-45E1-9DF9-82E2E40A6C21}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{4D5BA6A0-6D89-4F5B-B44A-0325A3C31214}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8{50DD632E-BF4B-4B3E-8555-7E9CF320E87A}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{50FE6E1D-BDB6-423C-B4AE-46678356C414}resource=/Audio/AudioOut\/Left;0;WriteMethodType=I16{51017BBD-9FC7-49FB-8314-2C650CAA64A5}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO12;0;ReadMethodType=bool;WriteMethodType=bool{52E106DC-7CA8-4C0E-A006-E81656BE3AB5}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{5846BC9E-5935-413E-88D6-F57752DE32CE}resource=/ConnectorA/AI3;0;ReadMethodType=U16{5885E033-406F-442D-8C05-5AEE82119AFC}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/LED2;0;ReadMethodType=bool;WriteMethodType=bool{65162F75-F8B8-4F2D-A24E-EAB38ECD9CC3}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO11;0;ReadMethodType=bool;WriteMethodType=bool{7002AAC1-D87F-476C-86BE-F325DEB2B131}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{7488383B-789C-40B9-8D7E-20515E747D99}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO12;0;ReadMethodType=bool;WriteMethodType=bool{7DD53BDE-F3C8-4502-B8FD-68664C01A8DE}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8{81203F94-442D-497B-B6B6-547B2CC710CA}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO8;0;ReadMethodType=bool;WriteMethodType=bool{82D12339-C36F-4134-8D64-6483D308731C}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{83660B7C-E864-4693-8251-E1E83711A7CE}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO15:8;0;ReadMethodType=u8;WriteMethodType=u8{8502336E-5BED-4596-925C-65E34C17FEE9}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO13;0;ReadMethodType=bool;WriteMethodType=bool{851CD700-E95D-46C0-BED7-2601DC959D70}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{8A45C35D-942A-4B34-BA94-53935379213F}resource=/AccelerationZ;0;ReadMethodType=I16{8ADFBCD0-071E-4BDA-953F-0201473B090A}resource=/ConnectorC/AI1;0;ReadMethodType=I16{935F50BD-3A40-4C67-A985-A0322071CBA3}resource=/ConnectorC/AO1;0;WriteMethodType=I16{94FD59DF-D178-4A35-A4C8-2146E947A2BF}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{96E00790-97EF-42C4-9F83-28D206128B5D}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{997FF311-C23C-4475-AA64-93D37D7342AA}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{A4BF1D1C-CD0C-4132-B4A2-89C998A3E716}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/LED1;0;ReadMethodType=bool;WriteMethodType=bool{A5B5C336-A562-40A3-808F-472A5ECE1087}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/LED0;0;ReadMethodType=bool;WriteMethodType=bool{AC91B635-28DC-497B-9E42-3BCF51ED2311}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO9;0;ReadMethodType=bool;WriteMethodType=bool{AEE8A5BB-5361-4B11-ADB6-8510C2E5FDE8}resource=/ConnectorA/AI1;0;ReadMethodType=U16{B277C82A-FE83-4598-912E-0AD541BB6790}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO0;0;ReadMethodType=bool;WriteMethodType=bool{B5F7E867-483F-4AF5-8955-3D74CF26E557}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO5;0;ReadMethodType=bool;WriteMethodType=bool{B6E0A34F-0177-4853-8908-3326DE66A31A}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{BABA130A-C597-4883-85B3-70CF1CDA5347}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{BD51FCFE-447F-4B7F-A882-05DF19BD4B6C}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool{BE7CA663-B64E-433C-8E9C-0A38CDA508FB}resource=/ConnectorB/AI1;0;ReadMethodType=U16{BF410E31-C666-40E4-9AC2-EFA2803453FE}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{C21B808A-DB79-4F79-88B6-DFBF2723BBD0}resource=/ConnectorA/AI2;0;ReadMethodType=U16{C31DF7BC-1678-499E-AB92-7D8777C054A1}resource=/ConnectorB/AO0;0;WriteMethodType=U16{C770533E-DE52-4476-94F6-7E998867DF5A}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8{C893BFB4-0B4B-40ED-A37C-9D01DEF05C7E}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO1;0;ReadMethodType=bool;WriteMethodType=bool{D37093FF-DB94-4861-9860-14803F3EB543}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO15:8;0;ReadMethodType=u8;WriteMethodType=u8{DC047A21-0617-40C8-9F98-173E1140C29C}NumberOfSyncRegistersForReadInProject=Auto;resource=/Button0;0;ReadMethodType=bool{DC71F123-2CA8-45B8-B852-9D8995B9E8F9}resource=/ConnectorB/AO1;0;WriteMethodType=U16{DD431930-99AA-489B-9E18-8E5D511AFECE}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO9;0;ReadMethodType=bool;WriteMethodType=bool{DDB424F0-3E5D-457C-B495-B2E4232B520B}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO3;0;ReadMethodType=bool;WriteMethodType=bool{DEF869A1-0848-452E-B725-12765699DC93}resource=/Audio/AudioIn\/Left;0;ReadMethodType=I16{E00AB44C-E52B-4F59-91E5-B36C81E94538}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO6;0;ReadMethodType=bool;WriteMethodType=bool{E100A04D-B753-497B-991F-6948A77FFB59}resource=/ConnectorA/AO1;0;WriteMethodType=U16{E96F2671-FA76-4038-9520-028F4A3EF8B5}resource=/ConnectorC/AI0;0;ReadMethodType=I16{EA5CC006-0892-4545-B20A-334307DF6537}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO2;0;ReadMethodType=bool;WriteMethodType=bool{EE8D5290-CA9A-49E0-873B-A172CD28F310}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO8;0;ReadMethodType=bool;WriteMethodType=bool{EEA84A43-0D13-40A8-869E-FF6986A7EAF6}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO10;0;ReadMethodType=bool;WriteMethodType=bool{F07FB6E3-FC0D-477A-80C2-EB4E64FF7C14}resource=/ConnectorB/AI3;0;ReadMethodType=U16{F27D5C03-D216-4D73-85E1-8805EBAF3044}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO15;0;ReadMethodType=bool;WriteMethodType=bool{F5EBFC1B-BA2C-4EB9-A9D5-B4FAD71C8710}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO7;0;ReadMethodType=bool;WriteMethodType=bool{F6ABE629-D43E-46FC-85CC-EAE50B9370BA}ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO11;0;ReadMethodType=bool;WriteMethodType=bool{FE8676C0-59D3-49B8-A7EB-BC3B8CE42EE0}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/LED3;0;ReadMethodType=bool;WriteMethodType=boolmyRIO-1900/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSMYRIO_1900FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
 				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;AccelerationXresource=/AccelerationX;0;ReadMethodType=I16AccelerationYresource=/AccelerationY;0;ReadMethodType=I16AccelerationZresource=/AccelerationZ;0;ReadMethodType=I16AudioIn/Leftresource=/Audio/AudioIn\/Left;0;ReadMethodType=I16AudioIn/Rightresource=/Audio/AudioIn\/Right;0;ReadMethodType=I16AudioOut/Leftresource=/Audio/AudioOut\/Left;0;WriteMethodType=I16AudioOut/Rightresource=/Audio/AudioOut\/Right;0;WriteMethodType=I16Button0NumberOfSyncRegistersForReadInProject=Auto;resource=/Button0;0;ReadMethodType=boolConnectorA/AI0resource=/ConnectorA/AI0;0;ReadMethodType=U16ConnectorA/AI1resource=/ConnectorA/AI1;0;ReadMethodType=U16ConnectorA/AI2resource=/ConnectorA/AI2;0;ReadMethodType=U16ConnectorA/AI3resource=/ConnectorA/AI3;0;ReadMethodType=U16ConnectorA/AO0resource=/ConnectorA/AO0;0;WriteMethodType=U16ConnectorA/AO1resource=/ConnectorA/AO1;0;WriteMethodType=U16ConnectorA/DIO0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO0;0;ReadMethodType=bool;WriteMethodType=boolConnectorA/DIO10ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO10;0;ReadMethodType=bool;WriteMethodType=boolConnectorA/DIO11ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO11;0;ReadMethodType=bool;WriteMethodType=boolConnectorA/DIO12ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO12;0;ReadMethodType=bool;WriteMethodType=boolConnectorA/DIO13ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO13;0;ReadMethodType=bool;WriteMethodType=boolConnectorA/DIO14ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO14;0;ReadMethodType=bool;WriteMethodType=boolConnectorA/DIO15:8ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO15:8;0;ReadMethodType=u8;WriteMethodType=u8ConnectorA/DIO15ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO15;0;ReadMethodType=bool;WriteMethodType=boolConnectorA/DIO1ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO1;0;ReadMethodType=bool;WriteMethodType=boolConnectorA/DIO2ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO2;0;ReadMethodType=bool;WriteMethodType=boolConnectorA/DIO3ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO3;0;ReadMethodType=bool;WriteMethodType=boolConnectorA/DIO4ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO4;0;ReadMethodType=bool;WriteMethodType=boolConnectorA/DIO5ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO5;0;ReadMethodType=bool;WriteMethodType=boolConnectorA/DIO6ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO6;0;ReadMethodType=bool;WriteMethodType=boolConnectorA/DIO7:0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8ConnectorA/DIO7ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO7;0;ReadMethodType=bool;WriteMethodType=boolConnectorA/DIO8ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO8;0;ReadMethodType=bool;WriteMethodType=boolConnectorA/DIO9ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorA/DIO9;0;ReadMethodType=bool;WriteMethodType=boolConnectorB/AI0resource=/ConnectorB/AI0;0;ReadMethodType=U16ConnectorB/AI1resource=/ConnectorB/AI1;0;ReadMethodType=U16ConnectorB/AI2resource=/ConnectorB/AI2;0;ReadMethodType=U16ConnectorB/AI3resource=/ConnectorB/AI3;0;ReadMethodType=U16ConnectorB/AO0resource=/ConnectorB/AO0;0;WriteMethodType=U16ConnectorB/AO1resource=/ConnectorB/AO1;0;WriteMethodType=U16ConnectorB/DIO0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO0;0;ReadMethodType=bool;WriteMethodType=boolConnectorB/DIO10ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO10;0;ReadMethodType=bool;WriteMethodType=boolConnectorB/DIO11ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO11;0;ReadMethodType=bool;WriteMethodType=boolConnectorB/DIO12ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO12;0;ReadMethodType=bool;WriteMethodType=boolConnectorB/DIO13ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO13;0;ReadMethodType=bool;WriteMethodType=boolConnectorB/DIO14ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO14;0;ReadMethodType=bool;WriteMethodType=boolConnectorB/DIO15:8ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO15:8;0;ReadMethodType=u8;WriteMethodType=u8ConnectorB/DIO15ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO15;0;ReadMethodType=bool;WriteMethodType=boolConnectorB/DIO1ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO1;0;ReadMethodType=bool;WriteMethodType=boolConnectorB/DIO2ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO2;0;ReadMethodType=bool;WriteMethodType=boolConnectorB/DIO3ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO3;0;ReadMethodType=bool;WriteMethodType=boolConnectorB/DIO4ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO4;0;ReadMethodType=bool;WriteMethodType=boolConnectorB/DIO5ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO5;0;ReadMethodType=bool;WriteMethodType=boolConnectorB/DIO6ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO6;0;ReadMethodType=bool;WriteMethodType=boolConnectorB/DIO7:0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8ConnectorB/DIO7ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO7;0;ReadMethodType=bool;WriteMethodType=boolConnectorB/DIO8ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO8;0;ReadMethodType=bool;WriteMethodType=boolConnectorB/DIO9ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorB/DIO9;0;ReadMethodType=bool;WriteMethodType=boolConnectorC/AI0resource=/ConnectorC/AI0;0;ReadMethodType=I16ConnectorC/AI1resource=/ConnectorC/AI1;0;ReadMethodType=I16ConnectorC/AO0resource=/ConnectorC/AO0;0;WriteMethodType=I16ConnectorC/AO1resource=/ConnectorC/AO1;0;WriteMethodType=I16ConnectorC/DIO0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO0;0;ReadMethodType=bool;WriteMethodType=boolConnectorC/DIO1ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO1;0;ReadMethodType=bool;WriteMethodType=boolConnectorC/DIO2ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO2;0;ReadMethodType=bool;WriteMethodType=boolConnectorC/DIO3ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO3;0;ReadMethodType=bool;WriteMethodType=boolConnectorC/DIO4ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO4;0;ReadMethodType=bool;WriteMethodType=boolConnectorC/DIO5ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO5;0;ReadMethodType=bool;WriteMethodType=boolConnectorC/DIO6ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO6;0;ReadMethodType=bool;WriteMethodType=boolConnectorC/DIO7:0ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO7:0;0;ReadMethodType=u8;WriteMethodType=u8ConnectorC/DIO7ArbitrationForOutputData=NeverArbitrate;ArbitrationForOutputEnable=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForOutputEnable=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/ConnectorC/DIO7;0;ReadMethodType=bool;WriteMethodType=boolLED0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/LED0;0;ReadMethodType=bool;WriteMethodType=boolLED1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/LED1;0;ReadMethodType=bool;WriteMethodType=boolLED2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/LED2;0;ReadMethodType=bool;WriteMethodType=boolLED3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;NumberOfSyncRegistersForReadInProject=Auto;resource=/LED3;0;ReadMethodType=bool;WriteMethodType=boolmyRIO-1900/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSMYRIO_1900FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGAScan Clockresource=/Scan Clock;0;ReadMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool</Property>
 				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">myRIO-1900/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSMYRIO_1900FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
@@ -119,7 +190,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{69FC4CA4-CC22-4954-933A-911369F7A7C5}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{BD51FCFE-447F-4B7F-A882-05DF19BD4B6C}</Property>
 					</Item>
 					<Item Name="Button0" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -131,7 +202,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{6993FF78-09CF-4829-9B0C-F67C60C3D8ED}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{DC047A21-0617-40C8-9F98-173E1140C29C}</Property>
 					</Item>
 					<Item Name="LED0" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -149,7 +220,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{BF4EE6D4-04E6-4277-B55C-B84090B8E0CE}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{A5B5C336-A562-40A3-808F-472A5ECE1087}</Property>
 					</Item>
 					<Item Name="LED1" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -167,7 +238,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{2EA10CFB-BFDC-4D9B-B6F1-A287B305E0DA}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{A4BF1D1C-CD0C-4132-B4A2-89C998A3E716}</Property>
 					</Item>
 					<Item Name="LED2" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -185,7 +256,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{639ADD89-DC95-478E-9B36-1B80D3A13D41}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{5885E033-406F-442D-8C05-5AEE82119AFC}</Property>
 					</Item>
 					<Item Name="LED3" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -203,7 +274,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{72C3FEBB-B467-4EE7-B801-E6EBDEB139F2}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{FE8676C0-59D3-49B8-A7EB-BC3B8CE42EE0}</Property>
 					</Item>
 					<Item Name="AccelerationX" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -212,7 +283,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{90D3542D-704C-4830-B885-ED02B71BA36E}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{2A4C3DDE-45C7-4B53-A9BB-93050659E1EB}</Property>
 					</Item>
 					<Item Name="AccelerationY" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -221,7 +292,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{6F7FBC02-A3DE-48C3-8BB4-7A2450B2057A}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{20F00B03-FDB0-44F4-A903-7F857BD847C6}</Property>
 					</Item>
 					<Item Name="AccelerationZ" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -230,7 +301,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{30A1CC1E-D7D8-44CE-BDAF-198F129D2229}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{8A45C35D-942A-4B34-BA94-53935379213F}</Property>
 					</Item>
 					<Item Name="Scan Clock" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -239,7 +310,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{0D30F1CF-0EA3-49BB-A624-136FF49FE0B0}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{3CB34DDB-8285-4865-A5AD-D7893B79E307}</Property>
 					</Item>
 				</Item>
 				<Item Name="ConnectorA" Type="Folder">
@@ -251,7 +322,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{8ED24604-D9A4-41F4-A95A-8959C3B71FCA}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{28EC580D-286F-431F-B025-A702C5E02C38}</Property>
 						</Item>
 						<Item Name="ConnectorA/AO1" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -260,7 +331,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{14927E5E-DDFD-4EEF-9B98-622C34EC5911}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{E100A04D-B753-497B-991F-6948A77FFB59}</Property>
 						</Item>
 						<Item Name="ConnectorA/AI0" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -269,7 +340,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{4B05E0A7-95C6-45B2-B342-5A53B730E670}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{4B2A7A9C-B033-4912-809E-DD9E293BD42F}</Property>
 						</Item>
 						<Item Name="ConnectorA/AI1" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -278,7 +349,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{FEA5F93D-DC59-45D7-98B4-AC98586737F0}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{AEE8A5BB-5361-4B11-ADB6-8510C2E5FDE8}</Property>
 						</Item>
 						<Item Name="ConnectorA/AI2" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -287,7 +358,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{7441F385-EDB8-4DB1-876F-11FEF5A12596}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{C21B808A-DB79-4F79-88B6-DFBF2723BBD0}</Property>
 						</Item>
 						<Item Name="ConnectorA/AI3" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -296,7 +367,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{BBA4A812-5261-40C0-A67C-5218B8CCB81B}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{5846BC9E-5935-413E-88D6-F57752DE32CE}</Property>
 						</Item>
 					</Item>
 					<Item Name="DIO7:0" Type="Folder">
@@ -322,7 +393,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{E9C0B175-BCBD-4A6E-A47B-24DDB541598A}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{B277C82A-FE83-4598-912E-0AD541BB6790}</Property>
 						</Item>
 						<Item Name="ConnectorA/DIO1" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -346,7 +417,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{B8FB50AA-D00A-47B0-843B-386E1357412A}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{4AACDBCA-7D39-4808-A4C9-6C16DA95C02E}</Property>
 						</Item>
 						<Item Name="ConnectorA/DIO2" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -370,7 +441,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{3922E19B-C34B-4F80-BD37-C0800D4BF7D5}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{82D12339-C36F-4134-8D64-6483D308731C}</Property>
 						</Item>
 						<Item Name="ConnectorA/DIO3" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -394,7 +465,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{CDF908CB-E409-43C2-AA23-F51785080AF5}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{B6E0A34F-0177-4853-8908-3326DE66A31A}</Property>
 						</Item>
 						<Item Name="ConnectorA/DIO4" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -418,7 +489,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{6D956E0B-0424-44DB-87C0-C9C08E176895}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{41BFC47A-5966-4E74-A0BD-48C543494E49}</Property>
 						</Item>
 						<Item Name="ConnectorA/DIO5" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -442,7 +513,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{219367CF-FE84-461A-9AA0-172ED325CED8}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{B5F7E867-483F-4AF5-8955-3D74CF26E557}</Property>
 						</Item>
 						<Item Name="ConnectorA/DIO6" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -466,7 +537,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{912CA4B7-95FC-4FCC-900A-B6D14CAD0016}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{0D04836E-2636-4C63-985F-7B6F5B4FE463}</Property>
 						</Item>
 						<Item Name="ConnectorA/DIO7" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -490,7 +561,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{E1F20B5B-7971-4BCE-996D-135DE1E18965}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{96E00790-97EF-42C4-9F83-28D206128B5D}</Property>
 						</Item>
 						<Item Name="ConnectorA/DIO7:0" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -514,7 +585,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{CD6A05A5-D0F4-41A2-B50D-1E15E0CCB244}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{4D5BA6A0-6D89-4F5B-B44A-0325A3C31214}</Property>
 						</Item>
 					</Item>
 					<Item Name="DIO15:8" Type="Folder">
@@ -540,7 +611,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{8B7AC108-BE8A-49EA-9357-6AD1E95B3BA5}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{EE8D5290-CA9A-49E0-873B-A172CD28F310}</Property>
 						</Item>
 						<Item Name="ConnectorA/DIO9" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -564,7 +635,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{7E128035-0530-494A-8F9B-BA60D414B4D7}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{AC91B635-28DC-497B-9E42-3BCF51ED2311}</Property>
 						</Item>
 						<Item Name="ConnectorA/DIO10" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -588,7 +659,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{4875349A-98CB-4B55-8901-B9F9509356E4}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{238AB61B-CFAF-4DDE-BAFD-C0D48A63C6F8}</Property>
 						</Item>
 						<Item Name="ConnectorA/DIO11" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -612,7 +683,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{0EB2D3C6-9992-4FCE-A465-D592B23B64C4}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{65162F75-F8B8-4F2D-A24E-EAB38ECD9CC3}</Property>
 						</Item>
 						<Item Name="ConnectorA/DIO12" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -636,7 +707,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{7923E54A-6653-49E8-9209-EA8B49237250}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{51017BBD-9FC7-49FB-8314-2C650CAA64A5}</Property>
 						</Item>
 						<Item Name="ConnectorA/DIO13" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -660,7 +731,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{3AAECA2A-9F4B-42E5-9705-6D51782CB373}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{8502336E-5BED-4596-925C-65E34C17FEE9}</Property>
 						</Item>
 						<Item Name="ConnectorA/DIO14" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -684,7 +755,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{A699A7BD-498D-4ACC-95F0-02340B683600}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{22DDFAAE-BA00-4E4C-988D-7F73FA9FC6C9}</Property>
 						</Item>
 						<Item Name="ConnectorA/DIO15" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -708,7 +779,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{BD961BD4-636B-4940-8534-EDD0FDCE056C}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{49A0DA1F-4F9A-4277-93A5-63C090A8C3A9}</Property>
 						</Item>
 						<Item Name="ConnectorA/DIO15:8" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -732,7 +803,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{80E5BC82-2865-49BD-BA43-C2944147719C}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{83660B7C-E864-4693-8251-E1E83711A7CE}</Property>
 						</Item>
 					</Item>
 				</Item>
@@ -745,7 +816,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{DB54AB49-FC3B-4E37-B00C-1056776399FF}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{C31DF7BC-1678-499E-AB92-7D8777C054A1}</Property>
 						</Item>
 						<Item Name="ConnectorB/AO1" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -754,7 +825,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{431277D4-C06D-4898-A4C0-A231A2B34417}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{DC71F123-2CA8-45B8-B852-9D8995B9E8F9}</Property>
 						</Item>
 						<Item Name="ConnectorB/AI0" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -763,7 +834,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{5D5FECFC-F8BE-4ED4-81FA-204370C7274E}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{1BFF1F7E-AA4C-4625-9549-A3D5E3E60CE3}</Property>
 						</Item>
 						<Item Name="ConnectorB/AI1" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -772,7 +843,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{D4134376-5066-4C2B-80D6-AF87276BDFA4}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{BE7CA663-B64E-433C-8E9C-0A38CDA508FB}</Property>
 						</Item>
 						<Item Name="ConnectorB/AI2" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -781,7 +852,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{35CD1147-B130-42E0-8823-BD690DC9A90C}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{0426A809-641B-4E76-9F90-E7A423BD63FC}</Property>
 						</Item>
 						<Item Name="ConnectorB/AI3" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -790,7 +861,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{47D83B4A-30ED-480E-B114-D6661827F6CE}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{F07FB6E3-FC0D-477A-80C2-EB4E64FF7C14}</Property>
 						</Item>
 					</Item>
 					<Item Name="DIO7:0" Type="Folder">
@@ -816,7 +887,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{7A80661C-F446-4C92-A426-077A57E3DBD6}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{4D353A81-FDAB-45E1-9DF9-82E2E40A6C21}</Property>
 						</Item>
 						<Item Name="ConnectorB/DIO1" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -840,7 +911,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{54F9A628-58C9-4B13-8381-5B8BEA7FBE7B}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{BF410E31-C666-40E4-9AC2-EFA2803453FE}</Property>
 						</Item>
 						<Item Name="ConnectorB/DIO2" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -864,7 +935,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{843C2068-9A52-4A7F-99B8-8D0025CBF627}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{851CD700-E95D-46C0-BED7-2601DC959D70}</Property>
 						</Item>
 						<Item Name="ConnectorB/DIO3" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -888,7 +959,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{D49BFF6F-F4D5-406F-8E65-E69077F2F88C}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{DDB424F0-3E5D-457C-B495-B2E4232B520B}</Property>
 						</Item>
 						<Item Name="ConnectorB/DIO4" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -912,7 +983,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{CA6A66B6-DA75-48DB-922E-B831C585C273}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{01AE9976-FDCF-49B8-A4BF-B1139E031AEA}</Property>
 						</Item>
 						<Item Name="ConnectorB/DIO5" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -936,7 +1007,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{581A0271-160B-41DC-A6CD-4D3FDF88B519}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{50DD632E-BF4B-4B3E-8555-7E9CF320E87A}</Property>
 						</Item>
 						<Item Name="ConnectorB/DIO6" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -960,7 +1031,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{9AD6B7F7-C17A-489D-8DA7-7AC18BE4D321}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{2AD71E13-7F09-470E-A507-1D35023F6FB0}</Property>
 						</Item>
 						<Item Name="ConnectorB/DIO7" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -984,7 +1055,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{EC7B6B8C-7522-433C-BB3E-02CBEC6C864B}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{F5EBFC1B-BA2C-4EB9-A9D5-B4FAD71C8710}</Property>
 						</Item>
 						<Item Name="ConnectorB/DIO7:0" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1008,7 +1079,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{788EBBFA-7396-43CC-9080-FBB404D94D92}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{7DD53BDE-F3C8-4502-B8FD-68664C01A8DE}</Property>
 						</Item>
 					</Item>
 					<Item Name="DIO15:8" Type="Folder">
@@ -1034,7 +1105,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{FBA7EC1B-900C-4AA6-9431-C536B06B0B3C}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{81203F94-442D-497B-B6B6-547B2CC710CA}</Property>
 						</Item>
 						<Item Name="ConnectorB/DIO9" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1058,7 +1129,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{A581C0FD-2B10-48CE-A637-B168B132C2D5}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{DD431930-99AA-489B-9E18-8E5D511AFECE}</Property>
 						</Item>
 						<Item Name="ConnectorB/DIO10" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1082,7 +1153,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{266D89F5-C928-4265-B4CB-64407F871572}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{EEA84A43-0D13-40A8-869E-FF6986A7EAF6}</Property>
 						</Item>
 						<Item Name="ConnectorB/DIO11" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1106,7 +1177,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{412A8D61-14DF-4CD4-81C4-FF516CFBDF42}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{F6ABE629-D43E-46FC-85CC-EAE50B9370BA}</Property>
 						</Item>
 						<Item Name="ConnectorB/DIO12" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1130,7 +1201,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{9749D0AF-C998-4474-A64C-85AC3CC09DEF}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{7488383B-789C-40B9-8D7E-20515E747D99}</Property>
 						</Item>
 						<Item Name="ConnectorB/DIO13" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1154,7 +1225,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{E01FD535-1B0C-43D9-9CF2-3080FB2AA041}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{20B9F755-DCAB-42BC-8A1F-61FB6753946C}</Property>
 						</Item>
 						<Item Name="ConnectorB/DIO14" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1178,7 +1249,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{20A38365-85C3-46A7-9153-23200CCFC592}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{40AAD150-BC3D-4B3C-B917-6907F0CC0A9E}</Property>
 						</Item>
 						<Item Name="ConnectorB/DIO15" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1202,7 +1273,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{57EBAADF-FD4A-4B2D-B7ED-63F405FB4C77}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{F27D5C03-D216-4D73-85E1-8805EBAF3044}</Property>
 						</Item>
 						<Item Name="ConnectorB/DIO15:8" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1226,7 +1297,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{DFB7FC0C-BF4B-440A-8107-42F702CCB3DE}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{D37093FF-DB94-4861-9860-14803F3EB543}</Property>
 						</Item>
 					</Item>
 				</Item>
@@ -1239,7 +1310,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{45394F5A-2E4E-4DD2-AC1C-BA2034452C0A}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{22E918FE-8C14-4259-BE87-DC3188D0BDB9}</Property>
 						</Item>
 						<Item Name="ConnectorC/AO1" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1248,7 +1319,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{6658E748-F77E-4B18-8559-447CFD44CE8E}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{935F50BD-3A40-4C67-A985-A0322071CBA3}</Property>
 						</Item>
 						<Item Name="ConnectorC/AI0" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1257,7 +1328,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{71ECCDA2-224E-49C2-B285-E732BE5D4244}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{E96F2671-FA76-4038-9520-028F4A3EF8B5}</Property>
 						</Item>
 						<Item Name="ConnectorC/AI1" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1266,7 +1337,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{3AEA08E3-F31C-4CD0-91EF-9B3F50037CDF}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{8ADFBCD0-071E-4BDA-953F-0201473B090A}</Property>
 						</Item>
 					</Item>
 					<Item Name="DIO7:0" Type="Folder">
@@ -1292,7 +1363,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{1E24B10B-A074-4E37-B372-8C53272AE9FA}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{94FD59DF-D178-4A35-A4C8-2146E947A2BF}</Property>
 						</Item>
 						<Item Name="ConnectorC/DIO1" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1316,7 +1387,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{4CD7FCBD-1D81-498B-85CA-88D3D931BF3E}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{C893BFB4-0B4B-40ED-A37C-9D01DEF05C7E}</Property>
 						</Item>
 						<Item Name="ConnectorC/DIO2" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1340,7 +1411,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{3379BB5D-D584-4CBC-BE40-69F1E608671A}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{EA5CC006-0892-4545-B20A-334307DF6537}</Property>
 						</Item>
 						<Item Name="ConnectorC/DIO3" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1364,7 +1435,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{DAB31A4E-2F1F-4DF9-83B9-7EB6220694D6}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{997FF311-C23C-4475-AA64-93D37D7342AA}</Property>
 						</Item>
 						<Item Name="ConnectorC/DIO4" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1388,7 +1459,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{1C649CD1-FBEE-4148-A26B-EF2A0677DCAF}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{4A91C290-E6F1-44DF-9F0E-010D91BC4002}</Property>
 						</Item>
 						<Item Name="ConnectorC/DIO5" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1412,7 +1483,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{436A8860-AB7D-4717-B3D1-E60F5817D796}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{52E106DC-7CA8-4C0E-A006-E81656BE3AB5}</Property>
 						</Item>
 						<Item Name="ConnectorC/DIO6" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1436,7 +1507,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{0E0429F6-8CC6-4BF7-BD6B-F8D1788DA70A}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{E00AB44C-E52B-4F59-91E5-B36C81E94538}</Property>
 						</Item>
 						<Item Name="ConnectorC/DIO7" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1460,7 +1531,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{6DC28FE6-8BD7-460A-A7D6-42577717D944}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{7002AAC1-D87F-476C-86BE-F325DEB2B131}</Property>
 						</Item>
 						<Item Name="ConnectorC/DIO7:0" Type="Elemental IO">
 							<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1484,7 +1555,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-							<Property Name="FPGA.PersistentID" Type="Str">{B208182E-6CE7-4666-B6E4-186A875718AE}</Property>
+							<Property Name="FPGA.PersistentID" Type="Str">{C770533E-DE52-4476-94F6-7E998867DF5A}</Property>
 						</Item>
 					</Item>
 				</Item>
@@ -1496,7 +1567,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{3148C25D-AA60-40A4-967F-6C552BBFB02F}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{50FE6E1D-BDB6-423C-B4AE-46678356C414}</Property>
 					</Item>
 					<Item Name="AudioOut/Right" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1505,7 +1576,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{D0F7916F-4DAC-475A-8B13-6105F49BBD38}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{06BE93AE-F159-486E-969E-E1C13105360C}</Property>
 					</Item>
 					<Item Name="AudioIn/Left" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1514,7 +1585,7 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{54CE6C55-75A0-492B-B32F-EEB1D93BF6A7}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{DEF869A1-0848-452E-B725-12765699DC93}</Property>
 					</Item>
 					<Item Name="AudioIn/Right" Type="Elemental IO">
 						<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
@@ -1523,11 +1594,11 @@ AddOutputFilter chunkFilter
    </Attribute>
 </AttributeSet>
 </Property>
-						<Property Name="FPGA.PersistentID" Type="Str">{10AE0B8D-04ED-4949-8FD6-43F3A4C0B238}</Property>
+						<Property Name="FPGA.PersistentID" Type="Str">{1CD2AB99-6FC4-487D-B4EB-695884391732}</Property>
 					</Item>
 				</Item>
 				<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
-					<Property Name="FPGA.PersistentID" Type="Str">{E677ECF7-A651-45BD-9E9E-D7A06FA32759}</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{BABA130A-C597-4883-85B3-70CF1CDA5347}</Property>
 					<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
 					<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
 					<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">Clk40</Property>
@@ -1552,102 +1623,80 @@ AddOutputFilter chunkFilter
 				<Item Name="Build Specifications" Type="Build"/>
 			</Item>
 		</Item>
-		<Item Name="pidtest.vi" Type="VI" URL="../pidtest.vi"/>
+		<Item Name="Analog_Output.vi" Type="VI" URL="../Analog_Output.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels Enum.ctl"/>
-				<Item Name="AI Channels FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels FPGA Reference.ctl"/>
-				<Item Name="AI Channels List.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels List.ctl"/>
-				<Item Name="AI.lvlib" Type="Library" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/AI/AI.lvlib"/>
+				<Item Name="AO.lvlib" Type="Library" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/AO/AO.lvlib"/>
+				<Item Name="myRIO Generic Hardware Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/myRIO Generic Hardware Reference.ctl"/>
+				<Item Name="Hardware Version Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Hardware Version Enum.ctl"/>
+				<Item Name="myRIO v1.0 Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/myRIO v1.0 Reference.ctl"/>
+				<Item Name="Generic FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Generic FPGA Reference.ctl"/>
+				<Item Name="AO Channels List.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AO/typedefs/AO Channels List.ctl"/>
+				<Item Name="AO Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AO/typedefs/AO Channels Enum.ctl"/>
 				<Item Name="Analog Scaling Constants List.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Analog Scaling Constants List.ctl"/>
 				<Item Name="Analog Scaling Constants.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Analog Scaling Constants.ctl"/>
-				<Item Name="AO Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AO/typedefs/AO Channels Enum.ctl"/>
-				<Item Name="AO Channels FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AO/typedefs/AO Channels FPGA Reference.ctl"/>
-				<Item Name="AO Channels List.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AO/typedefs/AO Channels List.ctl"/>
-				<Item Name="AO.lvlib" Type="Library" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/AO/AO.lvlib"/>
-				<Item Name="Calculate Clock Settings.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Calculate Clock Settings.vi"/>
-				<Item Name="Calculate Frequency (Normal Mode).vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Calculate Frequency (Normal Mode).vi"/>
-				<Item Name="Calculate Frequency (Phase Correct Mode).vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Calculate Frequency (Phase Correct Mode).vi"/>
-				<Item Name="Calculate TOP (Normal Mode).vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Calculate TOP (Normal Mode).vi"/>
-				<Item Name="Calculate TOP (Phase Correct Mode).vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Calculate TOP (Phase Correct Mode).vi"/>
-				<Item Name="Clock Calculation Parameters.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Clock Calculation Parameters.ctl"/>
-				<Item Name="Clock Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Clock Settings.ctl"/>
-				<Item Name="Configuration Manager.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Configuration Manager.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Find Mutex.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Find Mutex.vi"/>
-				<Item Name="FPGA Ref Manager Action Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/FPGA Ref Manager Action Enum.ctl"/>
-				<Item Name="FPGA Ref Manager.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/FPGA Ref Manager.vi"/>
-				<Item Name="Generic FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Generic FPGA Reference.ctl"/>
-				<Item Name="Hardware Version Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Hardware Version Enum.ctl"/>
-				<Item Name="IO Config FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/typedefs/IO Config FPGA Reference.ctl"/>
-				<Item Name="IO Manager.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/IO Manager.vi"/>
+				<Item Name="AI.lvlib" Type="Library" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/AI/AI.lvlib"/>
+				<Item Name="AI Channels List.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels List.ctl"/>
+				<Item Name="AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels Enum.ctl"/>
 				<Item Name="Is FPGA Ref Available.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Is FPGA Ref Available.vi"/>
-				<Item Name="Lock Mutex.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Lock Mutex.vi"/>
-				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
-				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
-				<Item Name="Mutex Collection.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Mutex Collection.ctl"/>
-				<Item Name="myRIO Generic Hardware Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/myRIO Generic Hardware Reference.ctl"/>
-				<Item Name="myRIO v1.0 Build Mutex Name.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Build Mutex Name.vi"/>
-				<Item Name="myRIO v1.0 Build MUX Configuration AI.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/vis/myRIO v1.0 Build MUX Configuration AI.vi"/>
-				<Item Name="myRIO v1.0 Build MUX Configuration AO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AO/vis/myRIO v1.0 Build MUX Configuration AO.vi"/>
-				<Item Name="myRIO v1.0 Build MUX Configuration PWM.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/PWM/vis/myRIO v1.0 Build MUX Configuration PWM.vi"/>
-				<Item Name="myRIO v1.0 Channel Reservation Info.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/typedefs/myRIO v1.0 Channel Reservation Info.ctl"/>
-				<Item Name="myRIO v1.0 Channel Reservation List.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/typedefs/myRIO v1.0 Channel Reservation List.ctl"/>
-				<Item Name="myRIO v1.0 Close.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/myRIO v1.0 Close.vi"/>
-				<Item Name="myRIO v1.0 Configure IO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Configure IO.vi"/>
-				<Item Name="myRIO v1.0 Connector List.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/typedefs/myRIO v1.0 Connector List.ctl"/>
-				<Item Name="myRIO v1.0 Create Configuration List.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Create Configuration List.vi"/>
-				<Item Name="myRIO v1.0 Generate Register Values PWM.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/PWM/vis/myRIO v1.0 Generate Register Values PWM.vi"/>
-				<Item Name="myRIO v1.0 Get Analog Scaling Constants.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Get Analog Scaling Constants.vi"/>
-				<Item Name="myRIO v1.0 Get Scaling Constants AI.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/vis/myRIO v1.0 Get Scaling Constants AI.vi"/>
-				<Item Name="myRIO v1.0 Get Scaling Constants AO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AO/vis/myRIO v1.0 Get Scaling Constants AO.vi"/>
-				<Item Name="myRIO v1.0 Get Scaling Constants.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Get Scaling Constants.vi"/>
-				<Item Name="myRIO v1.0 Read AI.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/vis/myRIO v1.0 Read AI.vi"/>
-				<Item Name="myRIO v1.0 Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/myRIO v1.0 Reference.ctl"/>
-				<Item Name="myRIO v1.0 Reserve AI.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/vis/myRIO v1.0 Reserve AI.vi"/>
+				<Item Name="myRIO v1.1 Open AO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AO/vis/myRIO v1.1 Open AO.vi"/>
+				<Item Name="myRIO v1.1 AO Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AO/typedefs/myRIO v1.1 AO Channels Enum.ctl"/>
+				<Item Name="Validate Channels.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Validate Channels.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="myRIO v1.0 Reserve AO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AO/vis/myRIO v1.0 Reserve AO.vi"/>
+				<Item Name="myRIO v1.0 Build MUX Configuration AO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AO/vis/myRIO v1.0 Build MUX Configuration AO.vi"/>
+				<Item Name="myRIO v1.0 Channel Reservation List.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/typedefs/myRIO v1.0 Channel Reservation List.ctl"/>
+				<Item Name="myRIO v1.0 Channel Reservation Info.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/typedefs/myRIO v1.0 Channel Reservation Info.ctl"/>
+				<Item Name="myRIO v1.0 Connector List.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/typedefs/myRIO v1.0 Connector List.ctl"/>
 				<Item Name="myRIO v1.0 Reserve Channel List.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Reserve Channel List.vi"/>
 				<Item Name="myRIO v1.0 Reserve Channel.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Reserve Channel.vi"/>
-				<Item Name="myRIO v1.0 Reserve PWM.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/PWM/vis/myRIO v1.0 Reserve PWM.vi"/>
-				<Item Name="myRIO v1.0 Scaling Constants Table.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Scaling Constants Table.vi"/>
-				<Item Name="myRIO v1.0 Unreserve Channel.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Unreserve Channel.vi"/>
-				<Item Name="myRIO v1.0 Wait for RDY.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/System/vis/myRIO v1.0 Wait for RDY.vi"/>
-				<Item Name="myRIO v1.0 Write AO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AO/vis/myRIO v1.0 Write AO.vi"/>
-				<Item Name="myRIO v1.0 Write PWM.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/PWM/vis/myRIO v1.0 Write PWM.vi"/>
-				<Item Name="myRIO v1.1 AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/myRIO v1.1 AI Channels Enum.ctl"/>
-				<Item Name="myRIO v1.1 AO Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AO/typedefs/myRIO v1.1 AO Channels Enum.ctl"/>
-				<Item Name="myRIO v1.1 FPGA.lvbitx" Type="Document" URL="/&lt;vilib&gt;/myRIO/FPGA/bitfiles/myRIO v1.1 FPGA.lvbitx"/>
-				<Item Name="myRIO v1.1 Open AI.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/vis/myRIO v1.1 Open AI.vi"/>
-				<Item Name="myRIO v1.1 Open AO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AO/vis/myRIO v1.1 Open AO.vi"/>
-				<Item Name="myRIO v1.1 Open PWM.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/PWM/vis/myRIO v1.1 Open PWM.vi"/>
-				<Item Name="myRIO v1.1 Open.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/myRIO v1.1 Open.vi"/>
-				<Item Name="myRIO v1.1 PWM Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/PWM/typedefs/myRIO v1.1 PWM Channels Enum.ctl"/>
-				<Item Name="Named Mutex.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Named Mutex.ctl"/>
-				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
-				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
-				<Item Name="Parse Scaling Constant Table.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Parse Scaling Constant Table.vi"/>
-				<Item Name="PWM Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/PWM/typedefs/PWM Channels Enum.ctl"/>
-				<Item Name="PWM Channels FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/PWM/typedefs/PWM Channels FPGA Reference.ctl"/>
-				<Item Name="PWM Configuration v1.0.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/PWM/typedefs/PWM Configuration v1.0.ctl"/>
-				<Item Name="PWM.lvlib" Type="Library" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/PWM/PWM.lvlib"/>
-				<Item Name="Raw To Scaled Value.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Raw To Scaled Value.vi"/>
-				<Item Name="Reentrant Mutex.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Reentrant Mutex.ctl"/>
-				<Item Name="Ref Counter Action Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Ref Counter Action Enum.ctl"/>
-				<Item Name="Ref Counter.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Ref Counter.vi"/>
 				<Item Name="Resource Manager Action Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Resource Manager Action Enum.ctl"/>
-				<Item Name="roboRIO AI Channels FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/roboRIO v1.0/AI/typedefs/roboRIO AI Channels FPGA Reference.ctl"/>
-				<Item Name="roboRIO AO Channels FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/roboRIO v1.0/AO/typedefs/roboRIO AO Channels FPGA Reference.ctl"/>
-				<Item Name="roboRIO PWM Channels FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/roboRIO v1.0/PWM/typedefs/roboRIO PWM Channels FPGA Reference.ctl"/>
-				<Item Name="roboRIO v1.0 Read AI.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/roboRIO v1.0/AI/vis/roboRIO v1.0 Read AI.vi"/>
-				<Item Name="roboRIO v1.0 Write AO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/roboRIO v1.0/AO/vis/roboRIO v1.0 Write AO.vi"/>
-				<Item Name="roboRIO v1.0 Write PWM.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/roboRIO v1.0/PWM/vis/roboRIO v1.0 Write PWM.vi"/>
-				<Item Name="Scaled Value To Raw.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Scaled Value To Raw.vi"/>
-				<Item Name="System FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/System/typedefs/System FPGA Reference.ctl"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="myRIO v1.0 Build Mutex Name.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Build Mutex Name.vi"/>
+				<Item Name="IO Manager.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/IO Manager.vi"/>
+				<Item Name="Mutex Collection.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Mutex Collection.ctl"/>
+				<Item Name="Named Mutex.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Named Mutex.ctl"/>
+				<Item Name="Reentrant Mutex.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Reentrant Mutex.ctl"/>
+				<Item Name="Lock Mutex.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Lock Mutex.vi"/>
 				<Item Name="Unlock Mutex.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Unlock Mutex.vi"/>
-				<Item Name="Validate Channels.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Validate Channels.vi"/>
-				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="Find Mutex.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Find Mutex.vi"/>
+				<Item Name="Configuration Manager.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Configuration Manager.vi"/>
+				<Item Name="myRIO v1.0 Unreserve Channel.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Unreserve Channel.vi"/>
+				<Item Name="myRIO v1.0 Close.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/myRIO v1.0 Close.vi"/>
+				<Item Name="Ref Counter Action Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/Ref Counter Action Enum.ctl"/>
+				<Item Name="FPGA Ref Manager Action Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/typedefs/FPGA Ref Manager Action Enum.ctl"/>
+				<Item Name="FPGA Ref Manager.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/FPGA Ref Manager.vi"/>
+				<Item Name="Ref Counter.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Ref Counter.vi"/>
+				<Item Name="myRIO v1.0 Get Scaling Constants AO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AO/vis/myRIO v1.0 Get Scaling Constants AO.vi"/>
+				<Item Name="myRIO v1.0 Get Analog Scaling Constants.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Get Analog Scaling Constants.vi"/>
+				<Item Name="myRIO v1.0 Get Scaling Constants.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Get Scaling Constants.vi"/>
+				<Item Name="Parse Scaling Constant Table.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Parse Scaling Constant Table.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="myRIO v1.0 Scaling Constants Table.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/Resource Manager/vis/myRIO v1.0 Scaling Constants Table.vi"/>
+				<Item Name="myRIO v1.1 Open.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/myRIO v1.1 Open.vi"/>
+				<Item Name="myRIO v1.0 Wait for RDY.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/System/vis/myRIO v1.0 Wait for RDY.vi"/>
+				<Item Name="System FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/System/typedefs/System FPGA Reference.ctl"/>
+				<Item Name="myRIO v1.1 FPGA.lvbitx" Type="Document" URL="/&lt;vilib&gt;/myRIO/FPGA/bitfiles/myRIO v1.1 FPGA.lvbitx"/>
+				<Item Name="roboRIO v1.0 Write AO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/roboRIO v1.0/AO/vis/roboRIO v1.0 Write AO.vi"/>
+				<Item Name="roboRIO AO Channels FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/roboRIO v1.0/AO/typedefs/roboRIO AO Channels FPGA Reference.ctl"/>
+				<Item Name="Scaled Value To Raw.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Scaled Value To Raw.vi"/>
+				<Item Name="myRIO v1.0 Write AO.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AO/vis/myRIO v1.0 Write AO.vi"/>
+				<Item Name="AO Channels FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AO/typedefs/AO Channels FPGA Reference.ctl"/>
+				<Item Name="myRIO v1.1 Open AI.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/vis/myRIO v1.1 Open AI.vi"/>
+				<Item Name="myRIO v1.1 AI Channels Enum.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/myRIO v1.1 AI Channels Enum.ctl"/>
+				<Item Name="myRIO v1.0 Reserve AI.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/vis/myRIO v1.0 Reserve AI.vi"/>
+				<Item Name="myRIO v1.0 Build MUX Configuration AI.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/vis/myRIO v1.0 Build MUX Configuration AI.vi"/>
+				<Item Name="myRIO v1.0 Get Scaling Constants AI.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/vis/myRIO v1.0 Get Scaling Constants AI.vi"/>
+				<Item Name="roboRIO v1.0 Read AI.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/roboRIO v1.0/AI/vis/roboRIO v1.0 Read AI.vi"/>
+				<Item Name="roboRIO AI Channels FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/roboRIO v1.0/AI/typedefs/roboRIO AI Channels FPGA Reference.ctl"/>
+				<Item Name="Raw To Scaled Value.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/Utilities/vis/Raw To Scaled Value.vi"/>
+				<Item Name="myRIO v1.0 Read AI.vi" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/vis/myRIO v1.0 Read AI.vi"/>
+				<Item Name="AI Channels FPGA Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/myRIO/Common/Instrument Driver Framework/myRIO v1.0/AI/typedefs/AI Channels FPGA Reference.ctl"/>
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
