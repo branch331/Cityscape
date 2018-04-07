@@ -1,7 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
-	<Property Name="varPersistentID:{2EDF4359-31F6-4EAA-9440-D73E29C0A90D}" Type="Ref">/My Computer/Shared Variables.lvlib/Normal Theta</Property>
+	<Property Name="varPersistentID:{2EDF4359-31F6-4EAA-9440-D73E29C0A90D}" Type="Ref">/My Computer/Shared Variables.lvlib/Normal Theta?</Property>
 	<Property Name="varPersistentID:{30F0F4D5-4319-4C30-B969-8E7AFF7F3C93}" Type="Ref">/My Computer/Shared Variables.lvlib/Initial Theta</Property>
+	<Property Name="varPersistentID:{77ABBB37-2C6E-46C9-822E-66A09967454E}" Type="Ref">/My Computer/Shared Variables.lvlib/Swapped Yet?</Property>
+	<Property Name="varPersistentID:{7CFD52A5-8E77-41A2-A42E-B80021C6F5E8}" Type="Ref">/My Computer/Shared Variables.lvlib/Theta</Property>
 	<Property Name="varPersistentID:{EE5A8EFC-B0B9-4404-B5CE-4FCF01BA80C1}" Type="Ref">/My Computer/Shared Variables.lvlib/Distance</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
