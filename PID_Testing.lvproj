@@ -4,6 +4,7 @@
 	<Property Name="varPersistentID:{30F0F4D5-4319-4C30-B969-8E7AFF7F3C93}" Type="Ref">/My Computer/Shared Variables.lvlib/Initial Theta</Property>
 	<Property Name="varPersistentID:{77ABBB37-2C6E-46C9-822E-66A09967454E}" Type="Ref">/My Computer/Shared Variables.lvlib/Swapped Yet?</Property>
 	<Property Name="varPersistentID:{7CFD52A5-8E77-41A2-A42E-B80021C6F5E8}" Type="Ref">/My Computer/Shared Variables.lvlib/Theta</Property>
+	<Property Name="varPersistentID:{D6423595-3BEA-4C57-BEF3-801E96772B5A}" Type="Ref">/My Computer/Shared Variables.lvlib/Global Stop</Property>
 	<Property Name="varPersistentID:{EE5A8EFC-B0B9-4404-B5CE-4FCF01BA80C1}" Type="Ref">/My Computer/Shared Variables.lvlib/Distance</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -19,6 +20,7 @@
 		<Item Name="Calculate_Theta.vi" Type="VI" URL="../Calculate_Theta.vi"/>
 		<Item Name="Object_Track_Webcam_PC.vi" Type="VI" URL="../Object_Track_Webcam_PC.vi"/>
 		<Item Name="Shared Variables.lvlib" Type="Library" URL="../Shared Variables.lvlib"/>
+		<Item Name="test_write_SV.vi" Type="VI" URL="../test_write_SV.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -168,7 +170,7 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="pidtest.vi" Type="VI" URL="../pidtest.vi"/>
+		<Item Name="PID_RT.vi" Type="VI" URL="../PID_RT.vi"/>
 		<Item Name="Chassis" Type="myRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">fpga</Property>
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
@@ -1629,6 +1631,8 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="Analog_Output.vi" Type="VI" URL="../Analog_Output.vi"/>
+		<Item Name="test_read_SV.vi" Type="VI" URL="../test_read_SV.vi"/>
+		<Item Name="pidtest.vi" Type="VI" URL="../pidtest.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AO.lvlib" Type="Library" URL="/&lt;vilib&gt;/myRIO/Instrument Drivers/Onboard IO/AO/AO.lvlib"/>
