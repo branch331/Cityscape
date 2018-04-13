@@ -2,7 +2,6 @@
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="varPersistentID:{2EDF4359-31F6-4EAA-9440-D73E29C0A90D}" Type="Ref">/My Computer/Shared Variables.lvlib/Normal Theta?</Property>
 	<Property Name="varPersistentID:{30F0F4D5-4319-4C30-B969-8E7AFF7F3C93}" Type="Ref">/My Computer/Shared Variables.lvlib/Initial Theta</Property>
-	<Property Name="varPersistentID:{6CC5BC5B-61E1-4641-AA25-5B358D90B10E}" Type="Ref">/My Computer/Shared Variables.lvlib/Run Done?</Property>
 	<Property Name="varPersistentID:{77ABBB37-2C6E-46C9-822E-66A09967454E}" Type="Ref">/My Computer/Shared Variables.lvlib/Swapped Yet?</Property>
 	<Property Name="varPersistentID:{7CFD52A5-8E77-41A2-A42E-B80021C6F5E8}" Type="Ref">/My Computer/Shared Variables.lvlib/Theta</Property>
 	<Property Name="varPersistentID:{AA649D9A-D49F-41B6-BC19-45FA7D920A7C}" Type="Ref">/My Computer/Shared Variables.lvlib/Setpoint</Property>
@@ -21,8 +20,10 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Calculate_Distance.vi" Type="VI" URL="../Calculate_Distance.vi"/>
 			<Item Name="Calculate_Theta.vi" Type="VI" URL="../Calculate_Theta.vi"/>
+			<Item Name="Manipulate_Theta.vi" Type="VI" URL="../Manipulate_Theta.vi"/>
+			<Item Name="Vision_Init.vi" Type="VI" URL="../Vision_Init.vi"/>
+			<Item Name="Vision_Overlays.vi" Type="VI" URL="../Vision_Overlays.vi"/>
 		</Item>
-		<Item Name="networkstream_test_PC.vi" Type="VI" URL="../networkstream_test_PC.vi"/>
 		<Item Name="Object_Track_Webcam_PC.vi" Type="VI" URL="../Object_Track_Webcam_PC.vi"/>
 		<Item Name="Shared Variables.lvlib" Type="Library" URL="../Shared Variables.lvlib"/>
 		<Item Name="test_write_SV.vi" Type="VI" URL="../test_write_SV.vi"/>
@@ -31,7 +32,6 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
@@ -50,30 +50,25 @@
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="IMAQ Add Tracking Object" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Add Tracking Object"/>
 				<Item Name="IMAQ ConstructROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Display.llb/IMAQ ConstructROI"/>
-				<Item Name="IMAQ Convert ROI to Point" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Conversion.llb/IMAQ Convert ROI to Point"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Create Object Tracking Session" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Create Object Tracking Session"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="IMAQ Dispose Object Tracking Session" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Dispose Object Tracking Session"/>
-				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
-				<Item Name="IMAQ Mean Shift Options" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Mean Shift Options"/>
 				<Item Name="IMAQ Object Tracking Options" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Object Tracking Options"/>
-				<Item Name="IMAQ Object Tracking Session.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Object Tracking Session.ctl"/>
 				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
 				<Item Name="IMAQ Overlay Multiple Lines 2" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Multiple Lines 2"/>
 				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
-				<Item Name="IMAQ Point" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Point"/>
 				<Item Name="IMAQ Select Point" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Construct.llb/IMAQ Select Point"/>
-				<Item Name="IMAQ Shape Adapted Options" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Shape Adapted Options"/>
 				<Item Name="IMAQ Track Objects" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Track Objects"/>
-				<Item Name="IMAQ WindEraseROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Display.llb/IMAQ WindEraseROI"/>
+				<Item Name="IMAQdx Close Camera.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Close Camera.vi"/>
+				<Item Name="IMAQdx Configure Grab.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Configure Grab.vi"/>
+				<Item Name="IMAQdx Grab2.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Grab2.vi"/>
+				<Item Name="IMAQdx Open Camera.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/IMAQdx.llb/IMAQdx Open Camera.vi"/>
 				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -84,15 +79,8 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
+			<Item Name="IMAQ Object Tracking Session.ctl" Type="Document"/>
+			<Item Name="IMAQ Point" Type="Document"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
