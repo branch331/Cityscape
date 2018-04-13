@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
+	<Property Name="varPersistentID:{15CFCA40-1CCA-4504-BB79-736660906FDC}" Type="Ref">/My Computer/Shared Variables.lvlib/Start PID?</Property>
 	<Property Name="varPersistentID:{2EDF4359-31F6-4EAA-9440-D73E29C0A90D}" Type="Ref">/My Computer/Shared Variables.lvlib/Normal Theta?</Property>
 	<Property Name="varPersistentID:{30F0F4D5-4319-4C30-B969-8E7AFF7F3C93}" Type="Ref">/My Computer/Shared Variables.lvlib/Initial Theta</Property>
 	<Property Name="varPersistentID:{77ABBB37-2C6E-46C9-822E-66A09967454E}" Type="Ref">/My Computer/Shared Variables.lvlib/Swapped Yet?</Property>
@@ -79,8 +80,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="IMAQ Object Tracking Session.ctl" Type="Document"/>
-			<Item Name="IMAQ Point" Type="Document"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
