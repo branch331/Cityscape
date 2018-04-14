@@ -21,6 +21,7 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Calculate_Distance.vi" Type="VI" URL="../Calculate_Distance.vi"/>
 			<Item Name="Calculate_Theta.vi" Type="VI" URL="../Calculate_Theta.vi"/>
+			<Item Name="Find_Screen_Center.vi" Type="VI" URL="../Find_Screen_Center.vi"/>
 			<Item Name="Manipulate_Theta.vi" Type="VI" URL="../Manipulate_Theta.vi"/>
 			<Item Name="Vision_Init.vi" Type="VI" URL="../Vision_Init.vi"/>
 			<Item Name="Vision_Overlays.vi" Type="VI" URL="../Vision_Overlays.vi"/>
@@ -50,6 +51,7 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="IMAQ Add Tracking Object" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Add Tracking Object"/>
+				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
 				<Item Name="IMAQ ConstructROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Display.llb/IMAQ ConstructROI"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="IMAQ Create Object Tracking Session" Type="VI" URL="/&lt;vilib&gt;/vision/Tracking.llb/IMAQ Create Object Tracking Session"/>
