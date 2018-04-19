@@ -31,11 +31,9 @@
 			<Item Name="Vision_Init.vi" Type="VI" URL="../Vision_Init.vi"/>
 			<Item Name="Vision_Overlays.vi" Type="VI" URL="../Vision_Overlays.vi"/>
 		</Item>
-		<Item Name="Initialize_SVs.vi" Type="VI" URL="../Initialize_SVs.vi"/>
 		<Item Name="Object_Track_Webcam_PC.vi" Type="VI" URL="../Object_Track_Webcam_PC.vi"/>
 		<Item Name="Shared Variables.lvlib" Type="Library" URL="../Shared Variables.lvlib"/>
 		<Item Name="test_write_SV.vi" Type="VI" URL="../test_write_SV.vi"/>
-		<Item Name="Vision_fullscreenwin_test.vi" Type="VI" URL="../Vision_fullscreenwin_test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
