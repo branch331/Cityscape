@@ -1,9 +1,12 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
+	<Property Name="varPersistentID:{09D187FF-BE3A-4D7C-A10F-82FB96C2F58A}" Type="Ref">/My Computer/Shared Variables.lvlib/Grn</Property>
 	<Property Name="varPersistentID:{15CFCA40-1CCA-4504-BB79-736660906FDC}" Type="Ref">/My Computer/Shared Variables.lvlib/Start PID?</Property>
+	<Property Name="varPersistentID:{1769A860-B225-46F5-BBEB-CBB24ED24590}" Type="Ref">/My Computer/Shared Variables.lvlib/Red</Property>
 	<Property Name="varPersistentID:{29531154-A937-47AA-9E06-0836568AC7B5}" Type="Ref">/My Computer/Shared Variables.lvlib/Run Done?</Property>
 	<Property Name="varPersistentID:{2EDF4359-31F6-4EAA-9440-D73E29C0A90D}" Type="Ref">/My Computer/Shared Variables.lvlib/Normal Theta?</Property>
 	<Property Name="varPersistentID:{30F0F4D5-4319-4C30-B969-8E7AFF7F3C93}" Type="Ref">/My Computer/Shared Variables.lvlib/Initial Theta</Property>
+	<Property Name="varPersistentID:{49F7D3D2-48B1-4FA9-AC6C-0DE43CB862B5}" Type="Ref">/My Computer/Shared Variables.lvlib/Yel</Property>
 	<Property Name="varPersistentID:{77ABBB37-2C6E-46C9-822E-66A09967454E}" Type="Ref">/My Computer/Shared Variables.lvlib/Swapped Yet?</Property>
 	<Property Name="varPersistentID:{7CFD52A5-8E77-41A2-A42E-B80021C6F5E8}" Type="Ref">/My Computer/Shared Variables.lvlib/Theta</Property>
 	<Property Name="varPersistentID:{AA649D9A-D49F-41B6-BC19-45FA7D920A7C}" Type="Ref">/My Computer/Shared Variables.lvlib/Setpoint</Property>
