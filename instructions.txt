@@ -1,0 +1,16 @@
+
+INITIAL SETUP:
+
+1. Run the 'PID_RT' VI on the NI Elvis III
+2. On this VI, select the camera here: 
+3. Run this VI
+4. Left-Click a Center Point => Enter
+5. Drag a rectangle around the sticky not on the train => Enter
+
+RUNNING:
+
+1. Click the 'Run' button
+2. Left-Click a Point on the track => Enter
+
+
+

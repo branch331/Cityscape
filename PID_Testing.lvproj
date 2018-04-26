@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
+	<Property Name="varPersistentID:{06E97B4D-D41B-4170-9DB3-4D86E729F027}" Type="Ref">/My Computer/Shared Variables.lvlib/Control Signal</Property>
 	<Property Name="varPersistentID:{09D187FF-BE3A-4D7C-A10F-82FB96C2F58A}" Type="Ref">/My Computer/Shared Variables.lvlib/Grn</Property>
 	<Property Name="varPersistentID:{15CFCA40-1CCA-4504-BB79-736660906FDC}" Type="Ref">/My Computer/Shared Variables.lvlib/Start PID?</Property>
 	<Property Name="varPersistentID:{1769A860-B225-46F5-BBEB-CBB24ED24590}" Type="Ref">/My Computer/Shared Variables.lvlib/Red</Property>
