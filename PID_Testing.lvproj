@@ -1,9 +1,9 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
-	<Property Name="varPersistentID:{06E97B4D-D41B-4170-9DB3-4D86E729F027}" Type="Ref">/My Computer/Shared Variables.lvlib/Control Signal</Property>
 	<Property Name="varPersistentID:{09D187FF-BE3A-4D7C-A10F-82FB96C2F58A}" Type="Ref">/My Computer/Shared Variables.lvlib/Grn</Property>
 	<Property Name="varPersistentID:{15CFCA40-1CCA-4504-BB79-736660906FDC}" Type="Ref">/My Computer/Shared Variables.lvlib/Start PID?</Property>
 	<Property Name="varPersistentID:{1769A860-B225-46F5-BBEB-CBB24ED24590}" Type="Ref">/My Computer/Shared Variables.lvlib/Red</Property>
+	<Property Name="varPersistentID:{1AFBAE4A-05E3-4B4C-AC75-2B0A095C9123}" Type="Ref">/My Computer/Shared Variables.lvlib/Control Signal</Property>
 	<Property Name="varPersistentID:{29531154-A937-47AA-9E06-0836568AC7B5}" Type="Ref">/My Computer/Shared Variables.lvlib/Run Done?</Property>
 	<Property Name="varPersistentID:{2EDF4359-31F6-4EAA-9440-D73E29C0A90D}" Type="Ref">/My Computer/Shared Variables.lvlib/Normal Theta?</Property>
 	<Property Name="varPersistentID:{30F0F4D5-4319-4C30-B969-8E7AFF7F3C93}" Type="Ref">/My Computer/Shared Variables.lvlib/Initial Theta</Property>
@@ -32,6 +32,7 @@
 			<Item Name="Vision_Init.vi" Type="VI" URL="../Vision_Init.vi"/>
 			<Item Name="Vision_Overlays.vi" Type="VI" URL="../Vision_Overlays.vi"/>
 		</Item>
+		<Item Name="Calibrate_Camera.vi" Type="VI" URL="../Calibrate_Camera.vi"/>
 		<Item Name="Object_Track_Webcam_PC.vi" Type="VI" URL="../Object_Track_Webcam_PC.vi"/>
 		<Item Name="Shared Variables.lvlib" Type="Library" URL="../Shared Variables.lvlib"/>
 		<Item Name="test_write_SV.vi" Type="VI" URL="../test_write_SV.vi"/>

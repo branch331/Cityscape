@@ -5,7 +5,7 @@ INITIAL SETUP:
 2. On this VI, select the camera here: 
 3. Run this VI
 4. Left-Click a Center Point => Enter
-5. Drag a rectangle around the sticky not on the train => Enter
+5. Drag a rectangle around the sticky note on the train => Enter
 
 RUNNING:
 
