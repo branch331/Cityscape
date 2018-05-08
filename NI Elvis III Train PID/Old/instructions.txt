@@ -1,7 +1,7 @@
 
 INITIAL SETUP:
 
-1. Run the 'PID_RT' VI on the NI Elvis III
+1. Run the 'RT Train PID' VI on the NI Elvis III
 2. On this VI, select the camera here: 
 3. Run this VI
 4. Left-Click a Center Point => Enter
