@@ -1,0 +1,23 @@
+
+INITIAL SETUP:
+
+1. Run the 'RT Train PID' VI on the NI Elvis III
+2. On this VI, select the camera here: 
+3. Run this VI
+4. Left-Click a Center Point => Enter
+5. Drag a rectangle around the sticky note on the train => Enter
+
+RUNNING:
+
+1. Click the 'Run' button
+2. Left-Click a Point on the track => Enter
+
+
+INITIAL SETUP:
+
+1. Run this VI if not already running
+2. On this VI, select the camera here: 
+3. Left-Click a Center Point => Enter
+4. Drag a rectangle around the sticky note on the train => Enter
+
+DECODED MESSAGE
