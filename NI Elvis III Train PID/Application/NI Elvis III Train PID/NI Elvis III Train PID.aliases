@@ -1,0 +1,11 @@
+[HerNameIsRIO]
+HerNameIsRIO="172.22.11.2"
+
+[My Computer]
+My Computer="localhost"
+
+[RT ELVIS RIO Target]
+RT ELVIS RIO Target="172.22.11.2"
+
+[RT myRIO Target]
+RT myRIO Target="172.22.11.10"
