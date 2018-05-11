@@ -2,7 +2,7 @@
 HerNameIsRIO = "172.22.11.2"
 
 [My Computer]
-My Computer = "172.22.11.1"
+My Computer = "10.0.140.230"
 
 [RT ELVIS RIO Target]
 RT ELVIS RIO Target = "172.22.11.2"
