@@ -2,6 +2,14 @@ Cityscape Project
 
 Use camera feedback to control model train with PID.
 
+SW Needed:
+LV2018
+LVRT2018
+Vision Development Module 2018
+Vision Acquisition 2018
+myRIO2018 (for testing)
+Elvis III 2018
+
 To run program, do the following:
 1. Power on the RIO; connect to PC with USB
 2. Connect USB camera to PC
